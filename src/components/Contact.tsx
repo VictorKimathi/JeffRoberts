@@ -78,7 +78,7 @@ export function Contact() {
                 </div>
               </div>
             </div>
-            <div className="mt-10">
+            {/* <div className="mt-10">
               <h4 className="font-bold mb-4">CONNECT WITH ME</h4>
               <div className="flex gap-4">
                 <a href="#" className="text-white hover:text-[#FF6900] transition-colors">
@@ -91,7 +91,7 @@ export function Contact() {
                   <TwitterIcon size={24} />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
           <div>
             <form onSubmit={handleSubmit} className="bg-[#0F1112] p-6 rounded-lg border border-[#22272B]">
