@@ -17,8 +17,14 @@ export function Hero() {
             that inform and inspire readers across platforms.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <a href="#projects" className="w-full sm:w-auto">
+
             <Button>VIEW PORTFOLIO</Button>
+            </a>
+            <a href="#contact" className="w-full sm:w-auto">
+
             <Button variant="secondary">CONTACT ME</Button>
+            </a>
           </div>
         </div>
       </div>
