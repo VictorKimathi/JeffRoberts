@@ -7,13 +7,14 @@ interface Project {
   description: string;
   image: string;
   tags: string[];
+  href: string;
 }
 export function ProjectGrid() {
   const projects: Project[] = [{
     id: 1,
     title: 'Charging Reinvented: Why Gallium Nitride (GaN) Chargers Are the Future of Fast Power',
     description: 'If your laptop charger still feels like a brick, it might be time to meet Gallium Nitride – better known as GaN. This next-generation material is reshaping how we power our devices, replacing bulky power bricks with smaller, cooler and significantly faster charging solutions.',
-    image: 'https://www.pexels.com/photo/close-up-of-microcircuit-6842695/',
+    image: 'port1.jpg',
     tags: ['Gallium Nitride (GaN)', 'Fast Charging', 'Tech Accessories'],
     href: 'Charging_Reinvented.pdf'
   }, {
