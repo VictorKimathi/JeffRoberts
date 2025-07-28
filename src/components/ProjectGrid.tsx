@@ -13,20 +13,23 @@ export function ProjectGrid() {
     id: 1,
     title: 'Charging Reinvented: Why Gallium Nitride (GaN) Chargers Are the Future of Fast Power',
     description: 'If your laptop charger still feels like a brick, it might be time to meet Gallium Nitride – better known as GaN. This next-generation material is reshaping how we power our devices, replacing bulky power bricks with smaller, cooler and significantly faster charging solutions.',
-    image: 'https://images.unsplash.com/photo-1573739122661-d6d6d854b7e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-    tags: ['Gallium Nitride (GaN)', 'Fast Charging', 'Tech Accessories']
+    image: 'https://www.pexels.com/photo/close-up-of-microcircuit-6842695/',
+    tags: ['Gallium Nitride (GaN)', 'Fast Charging', 'Tech Accessories'],
+    href: 'Charging_Reinvented.pdf'
   }, {
     id: 2,
     title: '5 Emerging Tech Trends You’ll Actually Use in 2025',
     description: 'Tech trends come and go – some sound exciting but never quite make it out of the lab (looking at you, blockchain refrigerators). But others quietly reshape daily life in ways that feel natural, useful and surprisingly fast. In 2025, we’re seeing more of the latter.',
     image: 'https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-    tags: ['Foldable Devices', 'Personalized AI', 'Sustainable Technology']
+    tags: ['Foldable Devices', 'Personalized AI', 'Sustainable Technology'],
+    href: '5_Emerging_Tech_Trends.pdf'
   }, {
     id: 3,
     title: 'Mind-Controlled Gaming Interfaces: Real or Sci-Fi?',
     description: 'Just a few years ago, controlling a game with your brain sounded like fiction, but the technology is already real and advancing fast. Mind-controlled gaming interfaces rely on brain-computer interface (BCI) technology, which uses non-invasive EEG (electroencephalogram) sensors to detect brain activity and convert it into digital input. These systems let users perform basic actions within a game, such as selecting items or moving a cursor, by focusing their attention or imagining movement.',
     image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-    tags: ['Brain-Computer Interface (BCI)', 'Mind-Controlled Games', 'Gaming Innovation']
+    tags: ['Brain-Computer Interface (BCI)', 'Mind-Controlled Games', 'Gaming Innovation'],
+    href: 'Mind_Controlled_Gaming.pdf'
   }];
   return <section id="projects" className="py-20 bg-[#181C1F]">
       <div className="container mx-auto px-6">
