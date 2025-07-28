@@ -46,6 +46,7 @@ export function ProjectGrid() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map(project => <div key={project.id} className="bg-[#0F1112] border border-[#22272B] rounded-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
+              <a href={project.href} target="_blank" rel="noopener noreferrer" className="block h-full">
               <div className="h-48 overflow-hidden">
                 <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" />
               </div>
@@ -61,6 +62,8 @@ export function ProjectGrid() {
                   READ SAMPLES <ExternalLinkIcon size={16} />
                 </Button>
               </div>
+              </a>
+              
             </div>)}
         </div>
         <div className="text-center mt-12">
